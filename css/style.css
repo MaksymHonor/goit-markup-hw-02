@@ -1,0 +1,37 @@
+header {
+  width: 1440px;
+  height: 72px;
+  background;
+}
+body {
+  font-family: "Helvetica Neue", "Verdana", "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #2e2f42;
+}
+#button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+#head-1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+#box-1 {
+    text-align: left;
+}
+#box-2 {
+    text-align: right;
+}
+#box-3 {
+    text-align: center;
+}
+#box-4 {
+    text-align: justify;
+}
