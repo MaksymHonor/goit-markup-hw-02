@@ -24,10 +24,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;  
 }
-.navig:hover {
+.header-links .navig:hover {
 color: #404bbf;  
 }
-.navig:focus {
+.header-links .navig:focus {
 color: #404bbf;  
 }
 .head-adress {
@@ -66,14 +66,14 @@ background-color: #404BBF;
 .name-button:focus {
   background-color: #404BBF;
 }
-.box-title {
+.box-ul .box-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.pbox {
+.box-ul .pbox {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -99,7 +99,7 @@ color: #2e2f42; /* STUDIO color */
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.studio-class {
+.downloads .studio-class {
   color: #2e2f42;
 }
 .header-links {
@@ -110,10 +110,10 @@ color: #2e2f42; /* STUDIO color */
   color: #2e2f42;
   
 }
-.header-links:hover {
+.header-links .navig:hover {
   color: #404bbf;
 }
-.header-links:active {
+.header-links .navig:active {
 color: #404bbf
 }
 .contacts {
@@ -162,4 +162,11 @@ text-transform:uppercase;
 line-height: 1.5;
 color: #F4F4FD;  
  letter-spacing: 0.02em;
+}
+.head-two {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
