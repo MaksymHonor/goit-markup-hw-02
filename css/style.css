@@ -60,6 +60,9 @@ font-family:"Roboto", sans-serif;
 letter-spacing: 0.04em;
 color: #ffffff;
 }
+.mail-link:hover, .mail-link:focus {
+  color: #404bbf;
+}
 .name-button:hover {
 background-color: #404BBF;
 }
