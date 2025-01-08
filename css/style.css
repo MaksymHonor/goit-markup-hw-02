@@ -24,9 +24,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;  
 }
-.header-links .navig:hover 
-.header-links .navig:focus {
-color: #404bbf;  
+.header-links li:first-child .navig:hover, 
+.header-links li:first-child .navig:focus {
+ color: #404bbf;
 }
 .head-adress {
 font-weight: 400;
