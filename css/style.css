@@ -24,9 +24,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;  
 }
-.header-links .navig:hover {
-color: #404bbf;  
-}
+.header-links .navig:hover 
 .header-links .navig:focus {
 color: #404bbf;  
 }
@@ -128,10 +126,8 @@ color: #404bbf
   letter-spacing: 0.02em;
   color: #434455;
 }
-.mail-link:hover {
-  color: #404bbf;
-}
-.mail-link:active {
+.mail-link:hover 
+.mail-link:focus {
   color: #404bbf ;
 }
 .member-one {
@@ -168,17 +164,4 @@ color: #2e2f42;
 }
 .mark-li {
 background-color: #FFFFFF;
-}
-.box-title-mark {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;  
-}
-.pbox-mark {
-font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;  
 }
