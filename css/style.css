@@ -24,7 +24,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;  
 }
-.header-links li:first-child .navig:hover, 
+.header-links li:first-child .navig:hover
 .header-links li:first-child .navig:focus {
  color: #404bbf;
 }
@@ -164,4 +164,17 @@ color: #2e2f42;
 }
 .mark-li {
 background-color: #FFFFFF;
+}
+.box-ul .mark-li .box-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.box-ul .mark-li .pbox {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
