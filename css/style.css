@@ -178,3 +178,37 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+.box-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.pbox {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.header-links {
+list-style: none;
+display: flex;
+gap: 1.5rem;
+padding: 0;
+}
+.header-links li {
+margin: 0;
+}
+.header-links li:first-child .navig:hover,
+.header-links li:first-child .navig:focus {
+color: #404bbf;
+}
+
+.navig {
+text-decoration: none;
+font-family: "Raleway", sans-serif;
+font-size: 16px;
+ color: #4d5ae5;
+  transition: color 0.3s ease;
+  }
