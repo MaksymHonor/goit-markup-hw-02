@@ -10,7 +10,7 @@ ul {
 list-style-type: none;
 }
 
-<!-----navigation----->
+
 
 .navig {
 }
@@ -40,7 +40,7 @@ color: #2e2f42;
 color: #404bbf;  
 }
 
-<!------address----->
+
 
 .address {
 font-style: normal;
@@ -58,7 +58,6 @@ color:  #434455;
 color: #404bbf;
 }
 
-<!------first-section----->
 
 .section {
 background-color: #2e2f42;
@@ -85,7 +84,7 @@ background-color: #404BBF;
  cursor: pointer;
 }
 
-<!-----second-section----->
+
 
 .section-title {
 }
@@ -105,7 +104,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-<!-----third-section----->
+
 
 .section-three {
 background-color: #F4F4FD;
@@ -126,7 +125,6 @@ background-color: #FFFFFF;
 .section-text {
 }
 
-<!-----fourth-section----->
 
 .section-title {
 }
@@ -135,7 +133,7 @@ background-color: #FFFFFF;
 .section-text {
 }
 
-<!----------footer----------->
+
 
 .footer {
 background-color: #2e2f42;
