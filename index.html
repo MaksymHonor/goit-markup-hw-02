@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,20 +16,22 @@
 
     <header>
 
-      <nav class="downloads">
-          <a href="./index.html" class="logo-link">
-          Web<span class="studio-class">Studio</span></a>
-        <ul class="header-links">
-          <li><a class="navig" href="./index.html"></a>Studio</li>
-          <li><a class="navig" href=""></a>Portfolio</li>
-          <li><a class="navig" href=""></a>Contacts</li>
+      <nav class="navig">
+          <a class="logo-link" href="./index.html">
+          Web<span class="span-header">Studio</span></a>
+        
+        <ul class="header-list">
+          <li><a class="heder-link" href="./index.html" ></a>Studio</li>
+          <li><a class="heder-link" href=""></a>Portfolio</li>
+          <li><a class="heder-link" href=""></a>Contacts</li>
         </ul>
+
       </nav>
 
-      <address class="contacts">
-        <ul class="head-adress">
-          <li><a  href="mailto:info@devstudio.com" class="mail-link">info@devstudio.com</a></li>
-          <li><a  href="tel:+110001111111" class="mail-link">+11 (000) 111-11-11</a></li>
+      <address class="address">
+        <ul class="address-list">
+          <li><a  href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a></li>
+          <li><a  href="tel:+110001111111" class="address-link">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
 
@@ -36,43 +39,43 @@
 
     <main>
 
-      <!--button-section-1-->
-
-      <section class="section-one">
-        <h1 class="head-one">Effective Solutions for Your Business</h1>
-        <button class="name-button" type="button">Order Service</button>
-      </section>
-
-      <!--description-section-2-->
+      <!--button-section-->
 
       <section class="section">
-        <h2 class="section-header">Features</h2>
+        <h1 class="head-title">Effective Solutions for Your Business</h1>
+        <button class="head-button" type="button">Order Service</button>
+      </section>
 
-        <ul class="box-ul">
+      <!--features-section-->
+
+      <section>
+        <h2 class="section-title">Features</h2>
+
+        <ul class="section-list">
           <li>
-            <h3 class="box-title">Strategy</h3>
-            <p class="pbox">
+            <h3 class="section-subtitle">Strategy</h3>
+            <p class="section-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3 class="box-title">Punctuality</h3>
-            <p class="pbox">
+            <h3 class="section-subtitle">Punctuality</h3>
+            <p class="section-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3 class="box-title">Diligence</h3>
-            <p class="pbox">
+            <h3 class="section-subtitle">Diligence</h3>
+            <p class="section-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3 class="box-title">Technologies</h3>
-            <p class="pbox">
+            <h3 class="section-subtitle">Technologies</h3>
+            <p class="section-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -80,15 +83,16 @@
         </ul>
       </section>
 
-      <!--team-section-3-->
+      <!--team-section-three-->
 
       <section class="section-three">
-        <h2 class="section-header">Our Team</h2>
         
-        <ul class="box-ul">
-          <li class="mark-li">
-            <h3 class="title-three">Mark Guerrero</h3>
-            <p class="paragraf">Product Designer</p>
+        <h2 class="section-title">Our Team</h2>
+        
+        <ul>
+          <li class="section-item">
+            <h3 class="section-subtitle">Mark Guerrero</h3>
+            <p class="section-text">Product Designer</p>
             <img
               src="./images/img-1-1.jpg"
               alt="Mark Guerrero"
@@ -96,9 +100,9 @@
               width="264"
             />
           </li>
-          <li class="mark-li">
-            <h3 class="title-three">Tom Ford</h3>
-            <p class="paragraf">Frontend Developer</p>
+          <li class="section-item">
+            <h3 class="section-subtitle">Tom Ford</h3>
+            <p class="section-text">Frontend Developer</p>
             <img
               src="./images/img-1-2.jpg"
               alt="Tom Ford"
@@ -106,9 +110,9 @@
               width="264"
             />
           </li>
-          <li class="mark-li">
-            <h3 class="title-three">Camila Garcia</h3>
-            <p class="paragraf">Marketing</p>
+          <li class="section-item">
+            <h3 class="section-subtitle">Camila Garcia</h3>
+            <p class="section-text">Marketing</p>
             <img
               src="./images/img-1-3.jpg"
               alt="Camila Garcia"
@@ -116,9 +120,9 @@
               width="264"
             />
           </li>
-          <li class="mark-li">
-            <p class="title-three">UI Designer</p>
-            <h3 class="paragraf">Daniel Wilson</h3>
+          <li class="section-item">
+            <p class="section-text">UI Designer</p>
+            <h3 class="section-subtitle">Daniel Wilson</h3>
             <img
               src="./images/img-1-4.jpg"
               alt="Daniel Wilson"
@@ -129,20 +133,20 @@
         </ul>
       </section>
 
-      <!--portfolio-section-4-->
+      <!--fourth-portfolio-section-->
 
-      <section class="section">
+      <section>
         
-        <h2 class="section-header">Our Portfolio</h2>
+        <h2 class="section-title">Our Portfolio</h2>
         
-        <ul class="box-ul">
+        <ul>
           <li>
             <img
               src="./images/img-2-1.jpg"
               alt="Banking App"
               width="360"/>
-             <h3 class="box-title">Banking App</h3>
-            <p class="pbox">App</p>
+             <h3 class="section-subtitle">Banking App</h3>
+            <p class="section-text">App</p>
           </li>
           <li>
             
@@ -151,8 +155,8 @@
               alt="Cashless Payment"
               width="360"
             />
-            <h3 class="box-title">Cashless Payment</h3>
-            <p class="pbox">Marketing</p>
+            <h3 class="section-subtitle">Cashless Payment</h3>
+            <p class="section-text">Marketing</p>
           </li>
           <li>
             
@@ -161,8 +165,8 @@
               alt="Meditation App"
               width="360"
             />
-            <h3 class="box-title">Meditation App</h3>
-            <p class="pbox">App</p>
+            <h3 class="section-subtitle">Meditation App</h3>
+            <p class="section-text">App</p>
           </li>
           <li>
             
@@ -171,8 +175,8 @@
               alt="Taxi Service"
               width="360"
             />
-            <h3 class="box-title">Taxi Service</h3>
-            <p class="pbox">Marketing</p>
+            <h3 class="section-subtitle">Taxi Service</h3>
+            <p class="section-text">Marketing</p>
           </li>
           <li>
             
@@ -181,8 +185,8 @@
               alt="Screen Illustrations"
               width="360"
             />
-            <h3 class="box-title">Screen Illustrations</h3>
-            <p class="pbox">Design</p>
+            <h3 class="section-subtitle">Screen Illustrations</h3>
+            <p class="section-text">Design</p>
           </li>
           <li>
             
@@ -191,8 +195,8 @@
               alt="Online Courses"
               width="360"
             />
-            <h3 class="box-title">Online Courses</h3>
-            <p class="pbox">Marketing</p>
+            <h3 class="section-subtitle">Online Courses</h3>
+            <p class="section-text">Marketing</p>
           </li>
 
         </ul>
@@ -202,8 +206,8 @@
     </main>
 
     <footer class="footer">
-      <a class="footer-link" href="./index.html">Web<span class="span-footer">Studio</span></a>
-      <p class="footer-p">
+      <a class="logo-link" href="./index.html">Web<span class="span-footer">Studio</span></a>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
